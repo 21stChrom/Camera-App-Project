@@ -30,7 +30,7 @@ const takePhoto = () => {
   photo.height = height;
 
   let ctx = photo.getContext('2d');
-  ctx.drawImage(video, 0, 0, width, height)
+  ctx.drawImage(video, 0, 0, width, height);
   setHasPhoto(true);
 }
 
